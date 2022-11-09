@@ -8,10 +8,10 @@ that will set you up as a Professional Wizard. The only problem is that two mons
 **Trall (T)**, a trickster that will try to get behind your back so you have no escape route.<br>
 
 ### Controls
-W: Up <br>
-D: Right <br>
-A: Left <br>
-S: Down <br>
+**W:** Up <br>
+**D:** Right <br>
+**A:** Left <br>
+**S:** Down <br>
 
 ### Gameplay
 <img src="https://user-images.githubusercontent.com/74179715/200823827-c22fde62-8a3d-4ced-a5b4-ff4e185d046d.mov" width="20%" height="20%"/>
