@@ -1,4 +1,6 @@
 ## Terminal Labyrinth Monster Game
 
 
-https://user-images.githubusercontent.com/74179715/200820277-6c417ed6-3234-4ca4-967c-e62e6500fedd.mp4
+
+
+![Game-2](https://user-images.githubusercontent.com/74179715/200822115-251f9eed-5ff1-4fc0-a3fa-7525ba971463.gif)
