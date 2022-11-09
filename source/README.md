@@ -17,15 +17,14 @@ The Traal cannot move in the opposite direction from the direction it is facing 
 
 ### Implementation:
 Both monsters share the same movement algorithm, and the way they compute the next move is as follows.
-	1. They accept parameters from Engine the Potter's position and the dimensions of the table
-	2. They create a table Dimension Y x Dimension X positions.
-	3. Fill the table with -1 values.
-	4. In the position they want to reflect they set the value 0. For Gnome position 0 is then Potter, for Traal it is the 4 block distance from Potter in Wander mode and Potter himself in Chase Mode.
-	5. In the position where they (the monsters) are they set the value 999.
-	6. They search the table for element 0 and set on the 4 sides of the off
-if it's a wall (*) element 1. (Distance 1 from Potter).
-	7. Then they search the table again for the elements 1 and set the sides to (If the values there are -1 which means they have not been processed) the value 2. This continues by increasing the value until one of the sides found is element 999 i.e. the monster. Depending on the side found, the appropriate side will be selected move.
-	8. At each Potter move steps 1-7 are repeated.
+	<br>1. They accept parameters from Engine the Potter's position and the dimensions of the table
+	<br>2. They create a table Y x X.
+	<br>3. Fill the table with -1 values.
+	<br>4. In the position they want to target they set the value 0. For Gnome position 0 is then Potter, for Traal it is the 4 block distance from Potter in Wander mode and Potter himself in Chase Mode.
+	<br>5. In the position where they (the monsters) are they set the value 999.
+	<br>6. They search the table for element 0 and set on the 4 sides the value 1 except if it's a wall (Distance 1 from Potter).
+	<br>7. Then they search the table again for the elements 1 and set the sides to (If the values there are -1 which means they have not been processed) the value 2. This continues by increasing the value until one of the sides found is element 999 i.e. the monster. Depending on the side found, the appropriate side will be selected move.
+	<br>8. At each Potter move steps 1-7 are repeated.
 
 ### Dept:
 Monsters hold a mutable as an attribute which when it is 1 means that in the previous round they stepped over a stone or if it is 2 they stepped over a scroll. On their next round of movement, the monster's letter is deleted from the screen, s or S is written and the letter is printed in the next position.
