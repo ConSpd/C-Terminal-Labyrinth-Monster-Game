@@ -1,6 +1,16 @@
 ## Terminal Labyrinth Monster Game
 
+### How to run
+Run make in the source folder
 
+## Prerequisites
+Ncurses library must be installed
+
+## Controls
+W: Up
+D: Right
+A: Left
+S: Down
 
 
 
