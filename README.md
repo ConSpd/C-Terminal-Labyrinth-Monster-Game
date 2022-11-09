@@ -7,10 +7,10 @@ Run make in the source folder
 Ncurses library must be installed
 
 ## Controls
-W: Up
-D: Right
-A: Left
-S: Down
+W: Up &nbsp
+D: Right &nbsp
+A: Left &nbsp
+S: Down &nbsp
 
 
 
