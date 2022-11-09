@@ -1,1 +1,1 @@
-# C-Terminal-Labyrinth-Monster-Game
+# Terminal-Labyrinth-Monster-Game
